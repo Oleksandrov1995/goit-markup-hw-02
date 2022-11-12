@@ -1,8 +1,11 @@
 
-body{background-color: #f5f5f5;
+body{background-color: #ffffff;
     font-family: 'Roboto', sans-serif;}
 a{text-decoration: none;}
 a:hover{color:#2196F3;}
+a:focus{color:#2196F3;}
+button:hover{color:#2196F3;}
+button:focus{color:#2196F3;}
 li{list-style-type: none;}
 td{cursor: pointer;}
 .head_of_page{width: 1600px;
@@ -27,7 +30,7 @@ td{cursor: pointer;}
     height: 16px;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.2;
     color: #212121;}
 .portfolio{position: absolute;
     width: 72px;
@@ -36,7 +39,7 @@ td{cursor: pointer;}
     top: 32px;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.2;
     color: #212121 }
 .contacts{position: absolute;
     width: 64px;
@@ -45,7 +48,7 @@ td{cursor: pointer;}
     top: 32px;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.2;
     color: #212121;}
 .mail{
         position: absolute;
@@ -55,7 +58,7 @@ td{cursor: pointer;}
         top: 32px;
         font-weight: 500;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 1.2;
         color: #757575; }
 .tel{position: absolute;
         width: 122px;
@@ -65,7 +68,7 @@ td{cursor: pointer;}
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 1.2;
         color: #757575;
         }
 
@@ -82,22 +85,26 @@ td{cursor: pointer;}
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.4;
     text-align: center;
     color: #FFFFFF;}
-.button{position: absolute;
-    width: 216px;
-    height: 50px;
-    margin: 400px 692px 200px 692px;
-    border: none;
-    background: #2196F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;}
- .button_text{font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
-    color: #FFFFFF;}
 
+ .button_index_text{ width: 216px;
+    height: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    background-color: #2196F3;
+    align-items: center;
+    text-align: center;
+    border-radius: 4px;
+    border: none; 
+     position: absolute;
+   
+    margin: 400px 692px 200px 692px;
+   
+    color: #FFFFFF;}
 .our_advantages{position: absolute;
     width: 366px;
     height: 42px;
@@ -106,7 +113,7 @@ td{cursor: pointer;}
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.2;
     text-align: center; 
     color: #212121;
     }
@@ -138,14 +145,14 @@ td{cursor: pointer;}
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.2;
     color: #212121;
     }
 .text_our_advantages{
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 24px;
+        line-height: 1.7;
         color: #757575;
         }
 .what_we_do{position: absolute;
@@ -156,7 +163,7 @@ td{cursor: pointer;}
             font-style: normal;
             font-weight: 700;
             font-size: 36px;
-            line-height: 42px;
+            line-height: 1.2;
             text-align: center;
              color: #212121;
             }
@@ -192,7 +199,7 @@ top: 1540px;
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
-line-height: 42px;
+line-height: 1.2;
 text-align: center;
 color: #212121;
                     }    
@@ -224,14 +231,14 @@ color: #212121;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
-        line-height: 19px;
+        line-height: 1.2;
         color: #212121;
         }
 .text_our_team{text-align: center;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 19px;
+        line-height: 1.2;
         color: #757575;
         }
 .footer{position: absolute;
@@ -255,7 +262,7 @@ color: #212121;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     color: #FFFFFF;
     margin-top: 20px;
     margin-left: 215px;
@@ -267,7 +274,7 @@ color: #212121;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.2;
     color: rgba(255, 255, 255, 0.6);
     margin-top: 9px;
     margin-left: 175px;}
@@ -277,7 +284,7 @@ color: #212121;
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 24px;
+        line-height: 1.2;
         color: rgba(255, 255, 255, 0.6);
         margin-top: 9px;
     margin-left: 175px;}
@@ -288,7 +295,7 @@ color: #212121;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
-        line-height: 26px;       
+        line-height: 1.2;       
         text-align: center;
         color: #FFFFFF;
         background-color: #2196F3;
@@ -300,7 +307,7 @@ color: #212121;
         font-style: normal ;
         font-weight: 500;
         font-size: 16px;
-        line-height: 26px;     
+        line-height: 1.2;     
         text-align: center;
         background-color: #F5F4FA ;        
         color: #212121;
@@ -342,7 +349,7 @@ color: #212121;
         font-style: normal;
         font-weight: 700;
         font-size: 18px;
-        line-height: 36px;
+        line-height: 2;
         color: #212121;
         margin-left: 24px;
         }
@@ -351,7 +358,7 @@ color: #212121;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.8;
     color: #757575;
     margin: 4px 24px 20px 24px;
     }
