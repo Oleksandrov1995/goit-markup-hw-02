@@ -1,0 +1,416 @@
+
+body{background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;}
+a{text-decoration: none;}
+a:hover{color:#2196F3;}
+li{list-style-type: none;}
+td{cursor: pointer;}
+.head_of_page{width: 1600px;
+              height: 80px;}
+    
+.logo_header{font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    width: 145px;
+    height: 31px;
+   margin: 24px 1240px 25px 215px;}
+.color_web{color: #2196F3;}
+.color_studio_black{color: #000000;}
+.site_nav{width: 281px;
+    height: 16px;}
+
+.index{position: absolute;
+    left: 453px;
+    top: 32px;
+    width: 45px;
+    height: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #212121;}
+.portfolio{position: absolute;
+    width: 72px;
+    height: 16px;
+    left: 548px;
+    top: 32px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #212121 }
+.contacts{position: absolute;
+    width: 64px;
+    height: 16px;
+    left: 670px;
+    top: 32px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #212121;}
+.mail{
+        position: absolute;
+        width: 135px;
+        height: 16px;
+        left: 1078px;
+        top: 32px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #757575; }
+.tel{position: absolute;
+        width: 122px;
+        height: 16px;
+        left: 1263px;
+        top: 32px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #757575;
+        }
+
+.order_a_service{position: absolute;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    background: #2F303A;}
+.title{position: absolute;
+    width: 696px;
+    height: 120px;
+    padding: 200px 452px 280px 452px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;}
+.button{position: absolute;
+    width: 216px;
+    height: 50px;
+    margin: 400px 692px 200px 692px;
+    border: none;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;}
+ .button_text{font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;}
+
+.our_advantages{position: absolute;
+    width: 366px;
+    height: 42px;
+    left: 617px;
+    margin-top: 600px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center; 
+    color: #212121;
+    }
+.advantage_1{position: absolute;
+        width: 270px;
+        height: 98px;
+        left: 215px;
+        top: 774px;
+        }
+.advantage_2{position: absolute;
+    width: 270px;
+    height: 74px;
+    left: 515px;
+    top: 774px;
+    }
+.advantage_3{position: absolute;
+    width: 270px;
+    height: 74px;
+    left: 815px;
+    top: 774px;
+    }
+.advantage_4{position: absolute;
+    width: 270px;
+    height: 98px;
+    left: 1115px;
+    top: 774px;
+    }
+.titles_our_advantages{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #212121;
+    }
+.text_our_advantages{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #757575;
+        }
+.what_we_do{position: absolute;
+            width: 366px;
+            height: 42px;
+            left: 617px;
+            top: 966px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 42px;
+            text-align: center;
+             color: #212121;
+            }
+.what_we_do_1{position: absolute;
+                width: 370px;
+                height: 294px;
+                left: 215px;
+                top: 1058px;
+                }
+.what_we_do_2{position: absolute;
+                width: 370px;
+                height: 294px;
+                left: 615px;
+                top: 1058px;
+                }
+.what_we_do_3 {position: absolute;
+                width: 370px;
+                height: 294px;
+                left: 1015px;
+                top: 1058px;
+                } 
+.section_our_team{
+    width: 1600px;
+    height: 648px;
+    left: 0px;
+    top: 1446px;
+    background: #F5F4FA;}
+.our_team{position: absolute;
+width: 264px;
+height: 42px;
+left: 668px;
+top: 1540px;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+color: #212121;
+                    }    
+.our_team_1{position: absolute;
+    width: 270px;
+    height: 368px;
+    left: 215px;
+    top: 1632px;
+    }
+.our_team_2{position: absolute;
+    width: 270px;
+    height: 368px;
+    left: 515px;
+    top: 1632px;
+    }
+.our_team_3{position: absolute;
+    width: 270px;
+    height: 368px;
+    left: 815px;
+    top: 1632px;
+    }
+.our_team_4{position: absolute;
+    width: 270px;
+    height: 368px;
+    left: 1115px;
+    top: 1632px;
+    }
+.title_our_team{text-align: center;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #212121;
+        }
+.text_our_team{text-align: center;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #757575;
+        }
+.footer{position: absolute;
+    width: 1600px;
+    height: 252px;
+   top: 2094px;
+    background: #2F303A;}
+    .logo_footer{
+        width: 145px;
+        height: 31px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+      margin-top:60px;
+    margin-left: 215px;}
+.color_studio_white{color: #FFFFFF;}
+.address{
+    width: 231px;
+    height: 21px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 215px;
+
+    }
+   .mail_footer{
+    width: 231px;
+    height: 21px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 9px;
+    margin-left: 175px;}
+    .tel_footer{
+        width: 231px;
+        height: 21px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: rgba(255, 255, 255, 0.6);
+        margin-top: 9px;
+    margin-left: 175px;}
+    
+    .active_portfolio_button_text{position: absolute;
+           
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;       
+        text-align: center;
+        color: #FFFFFF;
+        background-color: #2196F3;
+        border-radius: 4px;
+        border: none;
+        }
+    .portfolio_button_text{
+        font-family: 'Roboto';
+        font-style: normal ;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;     
+        text-align: center;
+        background-color: #F5F4FA ;        
+        color: #212121;
+        border-radius: 4px;
+        border: none;
+                }
+.porfolio_button_1{position: absolute;
+    width: 73px;
+    height: 38px;
+    left: 512px;
+    top: 174px;
+    }
+.porfolio_button_2{position: absolute;
+    width: 125px;
+    height: 38px;
+    left: 593px;
+    top: 174px;
+    }
+.porfolio_button_3{position: absolute;
+    width: 112px;
+    height: 38px;
+    left: 726px;
+    top: 174px;
+    }
+.porfolio_button_4{position: absolute;
+    width: 103px;
+    height: 38px;
+    left: 846px;
+    top: 174px;
+    }
+.porfolio_button_5{position: absolute;
+    width: 130px;
+    height: 38px;
+    left: 957px;
+    top: 174px;
+    }
+    .porfolio_list_title{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 36px;
+        color: #212121;
+        margin-left: 24px;
+        }
+   .porfolio_list_text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #757575;
+    margin: 4px 24px 20px 24px;
+    }
+    .portfolio_list_1{position: absolute;
+        width: 370px;
+        height: 404px;
+        left: 215px;
+        top: 262px;}
+       
+    .portfolio_list_2{position: absolute;
+        width: 370px;
+        height: 404px;
+        left: 615px;
+        top: 262px;
+        }
+    .portfolio_list_3{position: absolute;
+        width: 370px;
+        height: 404px;
+        left: 1015px;
+        top: 262px;
+        }
+    .portfolio_list_4{position: absolute;
+        width: 370px;
+        height: 404px;
+        left: 215px;
+        top: 696px;
+        }
+    .portfolio_list_5{position: absolute;
+        width: 370px;
+        height: 404px;
+        left: 615px;
+        top: 696px;
+        }
+    .portfolio_list_6{position: absolute;
+        width: 370px;
+        height: 404px;
+        left: 1015px;
+        top: 696px;
+        }
+    .portfolio_list_7{position: absolute;
+        width: 370px;
+        height: 404px;
+        left: 215px;
+        top: 1130px;}
+    .portfolio_list_8{position: absolute;
+        width: 370px;
+        height: 404px;
+        left: 615px;
+        top: 1130px;
+        }
+    .portfolio_list_9{position: absolute;
+        width: 370px;
+        height: 404px;
+        left: 1015px;
+        top: 1130px;
+        }
+        .footer_porfolio{position: absolute;
+            width: 1600px;
+            height: 252px;
+            left: 0px;
+            top: 1628px;
+            background: #2F303A;}
